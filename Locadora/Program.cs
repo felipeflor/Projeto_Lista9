@@ -34,21 +34,20 @@ namespace Locadora
                 switch (menu)
                 {
                     case 1:
-                        Console.WriteLine("Filme Disponivel:");
-                        Console.WriteLine(filmes[3]);
-                        Console.WriteLine("Deseja alugar esse filme? \n" +
-                                          "1 - Sim | 2 - Não");
-                        resp = int.Parse(Console.ReadLine());
-                        if (resp == 1)
-                        {
-                            Console.Write("Filme Alugado \n");
-                            on = false;
-                        }
-                        else if (resp == 2)
-                        {
 
-                        }
-                        break;
+                            Console.WriteLine("Filme Disponivel:");
+                            Console.WriteLine(filmes[3]);
+                            Console.WriteLine("Deseja alugar esse filme? \n" +
+                                              "1 - Sim | 2 - Não");
+                            resp = int.Parse(Console.ReadLine());
+                            if (resp == 1)
+                            {
+                                Console.Write("Filme Alugado \n");
+                                on = false;
+                            }
+
+                            break;
+                        
 
                     case 2:
                         Console.WriteLine("Filme Disponivel:");
